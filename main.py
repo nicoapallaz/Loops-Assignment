@@ -46,7 +46,7 @@ while order != 5:
         total += price(order)
         item(order)
     else:
-        price(order)
+        print("Not an option.")
 print("Here is your order:")
 for item in items:
     print(item)
