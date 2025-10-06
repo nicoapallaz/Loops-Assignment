@@ -1,4 +1,4 @@
-total = 0.0
+total = 0.00
 order = 0
 items = []
 def price(x):
@@ -50,4 +50,4 @@ while order != 5:
 print("Here is your order:")
 for item in items:
     print(item)
-print("Your total is: $" + total.round(2))
+print("Your total is: $" + str("{:.2f}".format(total)))
